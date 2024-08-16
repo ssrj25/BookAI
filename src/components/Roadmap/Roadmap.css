@@ -1,0 +1,122 @@
+/* Container Styles */
+.how-it-works, .roadmap {
+    margin-top: 80px;
+    background: var(--color-gray-light);
+    border-radius: 10px;
+    padding: 40px;
+  }
+  
+  .h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: var(--color-white);
+    text-align: center;
+  }
+  
+  .step-container, .roadmap-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .step, .roadmap-item {
+    flex-basis: calc(50% - 20px);
+    display: flex;
+    align-items: center;
+  }
+  
+  .step-icon, .roadmap-icon {
+    width: 50px;
+    height: 50px;
+    background: var(--color-gradient-main);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: var(--color-white);
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  
+  .step-content, .roadmap-content {
+    flex-grow: 1;
+  }
+  
+  .h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+  }
+  
+  .p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .h2 {
+      font-size: 20px;
+    }
+  
+    .step, .roadmap-item {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .step-icon, .roadmap-icon {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      margin-right: 15px;
+    }
+  
+    .h3 {
+      font-size: 1em;
+    }
+  
+    .p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .h2 {
+      font-size: 18px;
+    }
+  
+    .step, .roadmap-item {
+      flex-basis: 100%;
+      margin-bottom: 15px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .step-icon, .roadmap-icon {
+      width: 30px;
+      height: 30px;
+      font-size: 18px;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .h3 {
+      font-size: 0.9em;
+    }
+  
+    .p {
+      font-size: 12px;
+    }
+  }
+  

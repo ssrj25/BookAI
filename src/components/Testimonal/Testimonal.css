@@ -1,0 +1,127 @@
+  /* Testimonial Section */
+  .testimonials {
+      margin-top: 80px;
+      text-align: center;
+  }
+  
+  .testimonial-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 40px;
+  }
+  
+  .testimonial {
+      background: var(--color-gray-light);
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+      flex-basis: calc(50% - 20px);
+      transition: transform 0.3s ease;
+  }
+  
+  .p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      unicode-bidi: isolate;
+  }
+  
+  .strong {
+      font-weight: bold;
+  }
+  
+  .h2 {
+      display: block;
+      font-size: 1.5em;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      unicode-bidi: isolate;
+      color: var(--color-text-light);
+  }
+  
+  .newsletter {
+      margin-top: 80px;
+      text-align: center;
+      background: var(--color-gray-light);
+      border-radius: 10px;
+      padding: 40px;
+  }
+  
+  .newsletter form {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  }
+  
+  form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  }
+  
+  .newsletter input[type="email"] {
+      padding: 10px;
+      border: none;
+      border-radius: 5px 0 0 5px;
+      width: 60%;
+      max-width: 300px;
+  }
+  
+  .input {
+      padding: 12px;
+      border: 1px solid var(--color-border-light);
+      border-radius: 4px;
+      font-size: 16px;
+      transition: border-color 0.3s;
+  }
+  
+  .newsletter button {
+      background: var(--color-gradient-main);
+      color: var(--color-white);
+      border: none;
+      padding: 10px 20px;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+  }
+  
+  footer {
+      margin-top: 80px;
+      text-align: center;
+      padding: 20px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  footer p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+  
+  footer a {
+      color: var(--color-text-secondary);
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+      color: var(--color-hover);
+      text-decoration: underline;
+  }
+  
+  .testimonial:hover{
+    transform: translateY(-10px); 
+  }
+
+  .newsletter button:hover{
+    transform: translateY(-5px); 
+  }
