@@ -1,21 +1,30 @@
 # BookAI
 
-A responsive React web application recreating an interactive AI-themed landing page with a 3D galactic background and pricing section.
+BookAI is a modern React web application focused on recreating a polished AI-themed product landing page. It combines responsive UI components, interactive navigation, a pricing section, theme switching, and a Three.js-powered galactic background.
 
-## Features
+## What It Does
 
-- Responsive UI
-- Interactive Three.js galactic background
-- Light / dark mode
+The project presents a responsive product-style interface where users can explore the application, navigate between sections, switch between light and dark themes, and interact with the pricing section. Three.js is used to create the visual galaxy background.
+
+## Key Features
+
+- Responsive React interface
 - Interactive pricing section
+- Light and dark mode
+- Three.js galactic background
+- Client-side routing and smooth navigation
+- Accessible semantic UI elements
 
 ## Tech Stack
 
 - React.js
-- Bootstrap
+- Bootstrap / React Bootstrap
 - Three.js
-- CSS
+- React Router
+- JavaScript
+- CSS / SCSS
+- Font Awesome
 
 ## Demo
 
-https://66bf50d0832d571f40f48983--lambent-kangaroo-ce40ce.netlify.app/
+Explore the live demo: https://66bf50d0832d571f40f48983--lambent-kangaroo-ce40ce.netlify.app/
